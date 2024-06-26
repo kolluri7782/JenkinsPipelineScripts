@@ -1,6 +1,7 @@
 pipeline {
     agent any
    
+
     environment {
         // Define your environment variables
         GITHUB_REPO_URL = 'https://github.com/RJAYTech/B2C.git'
