@@ -14,7 +14,7 @@ pipeline {
     }
 
     stages {
-        stage('Checkout') {
+        stage('Checkout2') {
             steps {
                 git branch: 'sit1', url: env.GITHUB_REPO_URL
             }
